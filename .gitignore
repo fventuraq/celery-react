@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+test-celery/node_modules
+test-celery/.pnp
+test-celery/.pnp.js
+
+# testing
+test-celery/coverage
+
+# production
+test-celery/build
+
+# misc
+test-celery/.DS_Store
+test-celery/.env.local
+test-celery/.env.development.local
+test-celery/.env.test.local
+test-celery/.env.production.local
+
+test-celery/npm-debug.log*
+test-celery/yarn-debug.log*
+test-celery/yarn-error.log*
